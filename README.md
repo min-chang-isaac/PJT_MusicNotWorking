@@ -2,8 +2,8 @@
 ワーキングメモリの担保と通知地獄から逃げ切るためのApplyの設計PJT
 
 開発環境
-  IDE: AndroidStudio
-  言語: Kotlin
+  ■IDE: AndroidStudio
+  ■言語: Kotlin
   
 実装機能
   1. ローカルフィールダーのみ表示
