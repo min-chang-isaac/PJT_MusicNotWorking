@@ -20,4 +20,4 @@
 ・ローカルの指定フォールダ読み込み機能  
 
 シミュレーションURL（未具現）
-[https://qiita.com/](https://pjt-music-not-working.vercel.app/)
+https://pjt-music-not-working.vercel.app/
