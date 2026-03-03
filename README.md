@@ -1,16 +1,23 @@
-# React + Vite
+ワーキングメモリの保護と通知地獄から逃げ切るためローカルApplicationを設計。
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+■技術構成 
+・React (UI) 
+・Vite 
+・JS (フロント制御) 
+・HTMLAudioElement
 
-Currently, two official plugins are available:
+■設計思想 　
+・個人用タスク管理ツールの開発(最終ゴール：音楽、DB、メモ丸投げ)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+■実装履歴 　
+・(26.02.20) ローカルフォルダの曲の再生
+・(26.03.03) ソースの再ビルドとコンポネント
 
-## React Compiler
+■今後の見込み 
+・曲のtag管理 
+・ローカルStorageにメタ情報保存 
+・再生ログ 
+・ローカルの指定フォールダ読み込み機能
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+シミュレーションURL（具現中） [https://pjt-music-not-working.vercel.app/]
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
